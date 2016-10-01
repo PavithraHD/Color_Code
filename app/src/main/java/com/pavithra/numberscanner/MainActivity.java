@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                        int B = Color.blue(pixelColor);
 
                        tv_color.setText("Alpha : " + A + "Color :" + R + "," + G + "," + B);
-                       tv_color.setBackgroundColor(pixelColor);
+                       iv_color.setBackgroundColor(pixelColor);
                    }
                }
 
